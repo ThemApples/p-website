@@ -8,3 +8,14 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
+  .Blog {
+    background-color:green;
+    min-height: 100vh;
+    display: flex;
+    /*flex-direction: column;
+    align-items: left;
+    justify-content: center;*/
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }

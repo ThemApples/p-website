@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
-import {Minimalistic} from './Components/Minimalistic'
+import MiddleSection from './Components/middleSection'
+import Navbar from './Components/navbar'
 
 function App() {
   return (
@@ -14,13 +14,15 @@ function App() {
         <h2>
           Jimmy Young
         </h2>
-
+        </header>
         <div className = "Navigation">
-        <span>Minimal</span>
-        <span>Journal</span>
+        
         </div>
-      </header>
-      <Minimalistic/>
+        
+        <Navbar/>
+      
+      <MiddleSection/>
+      
     </div>
   );
 }
